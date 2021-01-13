@@ -393,7 +393,7 @@ srand((int)(time(NULL)));
         settings.softCutRatingsEnabled = 1; // ???
         // get path to our app, use CWD or resource dir for presets/fonts/etc
         settings.presetURL = base_path + "presets";
-//        settings.presetURL = base_path + "presets/presets_shader_test";
+		// settings.presetURL = base_path + "presets/presets_shader_test";
         settings.menuFontURL = base_path + "fonts/Vera.ttf";
         settings.titleFontURL = base_path + "fonts/Vera.ttf";
         // init with settings
